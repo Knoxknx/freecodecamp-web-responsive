@@ -15,8 +15,8 @@ Este curso es una forma de aprender sobre el diseño web responsivo, desde el pr
 
 - [x] Aprende HTML construyendo una aplicación de fotos de gatos
 - [x] Aprende CSS básico construyendo un menú de cafetería
-- [ ] Aprenda los colores de CSS construyendo un conjunto de marcadores de colores
-- [ ] Aprende formularios HTML construyendo un formulario de registro
+- [x] Aprenda los colores de CSS construyendo un conjunto de marcadores de colores
+- [x] Aprende formularios HTML construyendo un formulario de registro
 - [ ] Aprende el Modelo de Cajas de CSS construyendo una pintura de Rothko
 - [ ] Aprende CSS Flexbox construyendo una galería de fotos
 - [ ] Aprende tipografía construyendo una etiqueta de nutrición
