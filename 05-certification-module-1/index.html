@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+        <fieldset>
+            <label id="name-label" for="name">
+                Ingresa tu nombre
+                <input name="name" id="name" type="text" required placeholder="Ejemplo: Knox" />
+            </label>
+
+            <label id="email-label" for="email"> Ingresa tu correo
+                <input name="email" id="email" type="email" required placeholder="Ejemplo: knox@example.cl" />
+            </label>
+
+            <label id="number-label" for="number">
+                Ingresa tu edad
+                <input min="3" max="99" name="number" id="number" type="number" placeholder="Ejemplo: 30" />
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Cual es tu genero?</legend>
+            <label for="man">
+                <input class="inline" id="man" type="radio" value="man" name="gender" checked />
+                Masculino
+            </label>
+
+            <label for="woman">
+                <input class="inline" id="woman" type="radio" value="woman" name="gender" />
+                Femenino
+            </label>
+        </fieldset>
+
+        <fieldset>
+            Te gustaría recibir correos de nosotros?
+            <label for="">
+                <input class="inline" type="checkbox" value="todo" name="" id="">
+                Si, publicitarios y informativos
+            </label>
+
+            <label for="">
+                <input class="inline" type="checkbox" value="informativo" name="" id="">
+                Solo informativos
+            </label>
+
+            <label for="">
+                <input class="inline" type="checkbox" value="no" name="" id="">
+                No
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label for="dropdown">
+                Que haría de la informatica te gusta más?
+                <select name="referrer" id="dropdown">
+                    <option value="">(Elige una opción)</option>
+                    <option value="1">Desarrollador de Front-End</option>
+                    <option value="2">Desarrollador de Back-End</option>
+                    <option value="3">Analisis de datos</option>
+                </select>
+            </label>
+
+        </fieldset>
+        <textarea name="comentarios">
+
+        </textarea>
+        <input id="submit" value="Enviar" type="submit"></input>
+    </form>
+</body>
+
+</html>
